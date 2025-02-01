@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-image: url(https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?t=st=1737719245~exp=1737722845~hmac=5a3f36367c786e73e05a4e038dd7b657746469a59dce32adb54f19e2d49637c0&w=740);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.chat-box {
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    border-bottom: 1px solid ;
+    background-image: url(https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?t=st=1737719245~exp=1737722845~hmac=5a3f36367c786e73e05a4e038dd7b657746469a59dce32adb54f19e2d49637c0&w=740);
+    opacity: 85%;
+    flex-grow: 1;
+}
+
+.chat-message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 75%;
+    position: relative;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 8px;
+}
+
+.user {
+    background: #25e80c;
+    color: white;
+    margin-left: auto;
+}
+
+.bot {
+    background: #f1f1f1;
+    color: #333;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    flex: 1;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    background-color: #25e80c;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #25e80c;
+}
